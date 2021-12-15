@@ -1,0 +1,24 @@
+{
+  "name": "projeto2",
+  "version": "1.0.0",
+  "description": "criando juntos um projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicaschnei/Projeto2.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Mônica, Tiago, Brenda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicaschnei/Projeto2/issues"
+  },
+  "homepage": "https://github.com/monicaschnei/Projeto2#readme"
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap');
+
+:root{
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    --white: #ffff;
+    --black: #000;
+    }
+
+body{
+    background-image: url(./background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color:var(--black);*/
+    margin: 0;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem;
+}
+
+.container1 h1{
+    color: var(--white);
+    margin: 0;
+}
+
+.container1__lista{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    padding: 0;
+    list-style: none;
+}
+
+.container1__lista a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.container1__lista li:hover{
+    transform: rotate(45deg);
+}
+
+.container1__lista a:hover{
+    color: yellowgreen;
+
+}
+
+.container1__lista-button{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    color:var(--white);
+    padding-top: 8rem;
+    padding-left: 5.5rem;
+    
+}
+
+.container2 h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 0;
+}
+
+.container2__span{
+    font-size: 2.5rem;
+    display: block;
+}
+
+.container2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 0.8rem;
+}
+
+.container2__button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    width: 7rem;
+    height: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.container2__button:hover{
+    background-color: violet;
+    width: 10rem;
+    transform: rotate(45deg);
+}
